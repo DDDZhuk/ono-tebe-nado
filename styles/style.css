@@ -1,1 +1,375 @@
-/* место для вашего кода */
+.header {
+  display: flex;
+  align-items: center;
+  margin: 92px 50px 92px 50px;
+  width: 1340px;
+  height: 109px;
+  color: #000;
+}
+
+.header_menu {
+  display: flex;
+}
+
+.header_menu-link-glav {
+  text-decoration: none;
+  list-style: none;
+  padding: 43px 32px 45px 0px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.link {
+  text-decoration: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  padding-bottom: 0.5px;
+}
+
+.header_menu-list {
+  display: flex;
+  padding-top: 43px;
+  padding-bottom: 45px;
+  gap: 32px;
+  list-style: circle;
+  padding-right: 209px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header_logo_black {
+  width: 148px;
+  height: 105px;
+  margin-bottom: 4px;
+}
+
+.conacts {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 135%;
+  padding-bottom: 7px;
+  padding-left: 355px;
+  padding-right: 0;
+  padding-top: 5px;
+}
+
+.number_phone {
+  display: block;
+  width: 134px;
+  line-height: 100%;
+}
+
+.email {
+  width: 134px;
+}
+
+.cover {
+  display: flex;
+  gap: 180px;
+  background-image: url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 100%;
+  width: 1440px;
+  height: 757px;
+  z-index: 0;
+}
+
+.glass {
+  position: relative;
+  width: 1440px;
+  height: 757px;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.cover_title {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 100px;
+  gap: 20px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.it {
+  display: flex;
+  flex-direction: row;
+  padding-top: 165px;
+  padding-left: 50px;
+  font-weight: 700;
+  line-height: 115%;
+}
+
+.accent-span-up {
+  padding-right: 30px;
+}
+
+.you {
+  display: flex;
+  flex-direction: row;
+  padding-left: 505px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.accent-span-center {
+  padding-right: 30px;
+}
+
+.need {
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  line-height: 100%;
+  padding-left: 975px;
+}
+
+.accent-span-end-right {
+  padding-right: 30px;
+}
+
+.cover_footer {
+  display: flex;
+}
+
+.stavka {
+  display: flex;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 127%;
+  word-spacing: 18px;
+  text-transform: uppercase;
+  padding-left: 422px;
+  padding-top: 147px;
+  padding-bottom: 62px;
+}
+
+.stavka_text_ch1 {
+  word-spacing: 17px;
+}
+.stavka_text_ch2 {
+  word-spacing: 17px;
+  padding-left: 22px;
+}
+
+.stavka_text_ch3 {
+  padding-left: 28px;
+}
+
+.box_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+  width: 257px;
+  height: 52px;
+
+  margin: 135px 50px 50px 78px;
+}
+
+.box_button_text {
+  color: #fff;
+  padding: 12px 31px 12px 31px;
+  font-size: 22px;
+  word-spacing: 1px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.link_button {
+  text-decoration: none;
+}
+
+.lots {
+  width: 1340px;
+  margin: 180px 50px 181px 50px;
+}
+
+.lots_title {
+  display: inline-block;
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0 1179px 0 40px;
+}
+
+.lots_card_1 {
+  width: 430px;
+  height: 450px;
+  background-image: url(../images/card-lot-01.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 27px 25px 30px 0;
+}
+
+.lots_card_2 {
+  width: 430px;
+  height: 450px;
+  background-image: url(../images/card-lot-02.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 27px 25px 30px 0;
+}
+
+.lots_card_3 {
+  width: 430px;
+  height: 450px;
+  background-image: url(../images/card-lot-03.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 27px 25px 30px 0;
+}
+.lots_cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.glass_card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 430px;
+  height: 450px;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 50px 40px 50px 40px;
+}
+
+.card_title {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.card_text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.lots_link {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 40px;
+  width: 250px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+
+.about_logo {
+  display: flex;
+  width: 430px;
+  height: 240px;
+  padding: 0px 95px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ellips {
+  width: 240px;
+  height: 240px;
+  background-color: #000;
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_white_logo {
+  width: 148px;
+  height: 114px;
+}
+
+.about_card {
+  display: inline-flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  color: #000;
+  gap: 25px;
+  margin: 100px 0 1px 25px;
+}
+
+.about_card_title {
+  display: flex;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-bottom: 75px;
+}
+
+.about_card_text {
+  width: 885px;
+  height: 96px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  gap: 25px;
+}
+
+.footer {
+  display: flex;
+
+  margin: 180px 0 100px 50px;
+  background-color: #fff;
+  padding-top: 24px;
+}
+
+.footer_contacts {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 135%;
+  padding: 3px 358px 0 0;
+}
+
+.footer_menu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer_menu-list {
+  list-style: none;
+}
+.footer_menu-link-glav {
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer_icon_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 350px;
+  gap: 50px;
+  height: 48px;
+}
+
+.footer_icon {
+}
