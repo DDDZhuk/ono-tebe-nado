@@ -1,23 +1,20 @@
 .header {
+  width: 1440px;
+  margin: auto;
+}
+
+.header_card {
   display: flex;
   align-items: center;
   margin: 92px 50px 92px 50px;
   width: 1340px;
-  height: 109px;
+  min-height: 109px;
   color: #000;
 }
 
 .header_menu {
   display: flex;
-}
 
-.header_menu-link-glav {
-  text-decoration: none;
-  list-style: none;
-  padding: 43px 32px 45px 0px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: normal;
 }
 
 .link {
@@ -26,13 +23,25 @@
   padding-bottom: 0.5px;
 }
 
+.activ_link .link {
+  text-decoration: none;
+}
 .header_menu-list {
   display: flex;
-  padding-top: 43px;
-  padding-bottom: 45px;
+  padding-top: 45px;
+  padding-bottom: 43px;
   gap: 32px;
-  list-style: circle;
+  list-style:circle;
   padding-right: 209px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  width: 596px;
+}
+
+.header_menu-link {
+  list-style: none;
+  text-decoration: none;
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
@@ -41,17 +50,19 @@
 .header_logo_black {
   width: 148px;
   height: 105px;
-  margin-bottom: 4px;
+  margin-top: 4px ;
+  margin-bottom: 2px;
 }
 
 .conacts {
   font-size: 18px;
   font-weight: 400;
   line-height: 135%;
-  padding-bottom: 7px;
+  padding-bottom: 2px;
   padding-left: 355px;
   padding-right: 0;
-  padding-top: 5px;
+  padding-top: 10px;
+  font-style: normal;
 }
 
 .number_phone {
@@ -64,6 +75,11 @@
   width: 134px;
 }
 
+.main {
+  width: 1440px;
+  margin: auto;
+}
+
 .cover {
   display: flex;
   gap: 180px;
@@ -72,14 +88,13 @@
   background-position: right center;
   background-size: 100%;
   width: 1440px;
-  height: 757px;
   z-index: 0;
 }
 
 .glass {
   position: relative;
   width: 1440px;
-  height: 757px;
+  min-height: 757px;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
 }
@@ -95,7 +110,7 @@
   z-index: 2;
 }
 
-.it {
+.cover_text_up {
   display: flex;
   flex-direction: row;
   padding-top: 165px;
@@ -108,7 +123,7 @@
   padding-right: 30px;
 }
 
-.you {
+.cover_text_center {
   display: flex;
   flex-direction: row;
   padding-left: 505px;
@@ -120,7 +135,7 @@
   padding-right: 30px;
 }
 
-.need {
+.cover_text_end_right {
   display: flex;
   flex-direction: row;
   font-weight: 700;
@@ -136,7 +151,7 @@
   display: flex;
 }
 
-.stavka {
+.cover_footer_text {
   display: flex;
   color: #fff;
   font-size: 22px;
@@ -144,45 +159,31 @@
   line-height: 127%;
   word-spacing: 18px;
   text-transform: uppercase;
-  padding-left: 422px;
-  padding-top: 147px;
-  padding-bottom: 62px;
+  padding-left: 210px;
+  padding-top: 73px;
+
 }
 
-.stavka_text_ch1 {
-  word-spacing: 17px;
-}
-.stavka_text_ch2 {
-  word-spacing: 17px;
-  padding-left: 22px;
+.cover_footer_text{
+  word-spacing: 18px;
 }
 
-.stavka_text_ch3 {
-  padding-left: 28px;
-}
 
-.box_button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.cover_button {
   border: 1px solid #fff;
+  background: rgba(0, 0, 0, 0.0);
   width: 257px;
   height: 52px;
-
   margin: 135px 50px 50px 78px;
 }
 
-.box_button_text {
+.cover_button_text {
   color: #fff;
-  padding: 12px 31px 12px 31px;
   font-size: 22px;
   word-spacing: 1px;
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-}
-
-.link_button {
   text-decoration: none;
 }
 
@@ -201,27 +202,24 @@
   margin: 0 1179px 0 40px;
 }
 
-.lots_card_1 {
+.lots_card_one {
   width: 430px;
-  height: 450px;
   background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   margin: 27px 25px 30px 0;
 }
 
-.lots_card_2 {
+.lots_card_two {
   width: 430px;
-  height: 450px;
   background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   margin: 27px 25px 30px 0;
 }
 
-.lots_card_3 {
+.lots_card_three {
   width: 430px;
-  height: 450px;
   background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -237,7 +235,7 @@
   justify-content: space-between;
   flex-direction: column;
   width: 430px;
-  height: 450px;
+  min-height: 450px;
   flex-shrink: 0;
   background: rgba(0, 0, 0, 0.6);
   padding: 50px 40px 50px 40px;
@@ -265,13 +263,13 @@
   font-weight: 400;
   line-height: normal;
   margin-left: 40px;
-  width: 250px;
 }
 
 .about {
   display: flex;
   flex-direction: row;
   margin-left: 50px;
+  width: 1340px;
 }
 
 .about_logo {
@@ -320,7 +318,6 @@
 
 .about_card_text {
   width: 885px;
-  height: 96px;
   font-size: 20px;
   font-weight: 400;
   line-height: normal;
@@ -328,11 +325,14 @@
 }
 
 .footer {
-  display: flex;
+width: 1440px;
+margin: auto;
+}
 
-  margin: 180px 0 100px 50px;
-  background-color: #fff;
-  padding-top: 24px;
+.footer_card {
+  display: flex;
+  width: 1340px;
+  margin: 183px 50px 100px 50px;
 }
 
 .footer_contacts {
@@ -341,7 +341,9 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 135%;
-  padding: 3px 358px 0 0;
+  padding-top: 3px;
+  width:240px;
+  font-style: normal;
 }
 
 .footer_menu {
@@ -352,12 +354,16 @@
   list-style: none;
   font-size: 18px;
   font-weight: 400;
+  padding-left: 355px;
+
 }
 
 .footer_menu-list {
   list-style: none;
+  width: 149px;
+
 }
-.footer_menu-link-glav {
+.footer_menu-link {
   text-decoration: none;
   list-style: none;
 }
@@ -365,9 +371,17 @@
 .footer_icon_card {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding-left: 350px;
-  gap: 50px;
+  justify-content: flex-end;
+  gap: 46px;
+  padding-left: 50px;
+  width: 596px;
   height: 48px;
 }
 
+.footer_icon {
+  display: flex;
+  flex-direction: row;
+  width: 50px;
+  margin: 0;
+  padding: 0;
+}
