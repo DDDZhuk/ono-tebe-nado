@@ -14,7 +14,6 @@
 
 .header_menu {
   display: flex;
-
 }
 
 .link {
@@ -31,7 +30,7 @@
   padding-top: 45px;
   padding-bottom: 43px;
   gap: 32px;
-  list-style:circle;
+  list-style: circle;
   padding-right: 209px;
   font-size: 18px;
   font-weight: 400;
@@ -50,7 +49,7 @@
 .header_logo_black {
   width: 148px;
   height: 105px;
-  margin-top: 4px ;
+  margin-top: 4px;
   margin-bottom: 2px;
 }
 
@@ -161,17 +160,15 @@
   text-transform: uppercase;
   padding-left: 210px;
   padding-top: 73px;
-
 }
 
-.cover_footer_text{
+.cover_footer_text {
   word-spacing: 18px;
 }
 
-
 .cover_button {
   border: 1px solid #fff;
-  background: rgba(0, 0, 0, 0.0);
+  background: rgba(0, 0, 0, 0);
   width: 257px;
   height: 52px;
   margin: 135px 50px 50px 78px;
@@ -325,8 +322,8 @@
 }
 
 .footer {
-width: 1440px;
-margin: auto;
+  width: 1440px;
+  margin: auto;
 }
 
 .footer_card {
@@ -342,7 +339,7 @@ margin: auto;
   font-weight: 400;
   line-height: 135%;
   padding-top: 3px;
-  width:240px;
+  width: 240px;
   font-style: normal;
 }
 
@@ -355,13 +352,11 @@ margin: auto;
   font-size: 18px;
   font-weight: 400;
   padding-left: 355px;
-
 }
 
 .footer_menu-list {
   list-style: none;
   width: 149px;
-
 }
 .footer_menu-link {
   text-decoration: none;
