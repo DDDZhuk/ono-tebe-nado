@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="header_card">
+
+      <header class="header">
         <nav class="header_menu">
           <ul class="header_menu-list">
             <li class="header_menu-link">
@@ -39,7 +39,6 @@
           <a class="link email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           <p class="address">наб. Принсенграхт 263-265, Амстердам</p>
         </address>
-      </div>
     </header>
     <main class="main">
       <section class="cover">
@@ -61,6 +60,7 @@
                 Аукцион вещей, в которые никто не верил
               </p>
             </div>
+            
             <button class="cover_button">
               <a class="cover_button_text" href="#0">сделать ставку</a>
             </button>
@@ -70,7 +70,8 @@
       <section class="lots" id="lots">
         <h2 class="lots_title">лоты</h2>
         <div class="lots_cards">
-          <a href="#0" class="lots_card_one">
+          <div class="img_films">
+            <a href="#0" class="lots_card ">
             <div class="glass_card">
               <h3 class="card_title">
                 Фильм режиссёра, который бросил киношколу
@@ -81,7 +82,8 @@
               </p>
             </div>
           </a>
-          <a href="#0" class="lots_card_two">
+        </div>
+          <div class="img_book"><a href="#0" class="lots_card ">
             <div class="glass_card">
               <h3 class="card_title">
                 Книга, где описан один скучный день из жизни рекламного агента
@@ -96,7 +98,9 @@
               </p>
             </div>
           </a>
-          <a href="#0" class="lots_card_three">
+        </div>
+        <div class="img_picture">
+          <a href="#0" class="lots_card ">
             <div class="glass_card">
               <h3 class="card_title">
                 Картина, которую повторит даже 5-летний сын маминой подруги
@@ -110,6 +114,8 @@
             </div>
           </a>
         </div>
+        </div>
+
         <p class="lots_link"><a class="link" href="#0">посмотреть больше</a></p>
       </section>
       <section class="about" id="about">
@@ -143,7 +149,6 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer_card">
         <address class="footer_contacts">
           <a class="link number_phone" href="tel:+99995555555"
             >+9 999 555 5555</a
@@ -178,7 +183,6 @@
               alt="икона pinterest"
           /></a>
         </div>
-      </div>
     </footer>
   </body>
 </html>
