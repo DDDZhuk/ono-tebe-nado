@@ -137,7 +137,6 @@
 
 .cover_footer {
   display: flex;
-
 }
 
 .cover_footer_text {
@@ -152,11 +151,8 @@
   padding-top: 73px;
 }
 
-.cover_button_link {
-  margin: 135px 50px 50px 78px;
-}
-
 .cover_button_text {
+  margin: 135px 50px 50px 78px;
   border: 1px solid #fff;
   width: 257px;
   height: 52px;
