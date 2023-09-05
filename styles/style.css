@@ -240,12 +240,13 @@
 }
 
 .lots_link {
-  display: inline;
+
   font-size: 20px;
   font-weight: 400;
   line-height: normal;
   margin-left: 40px;
-  padding-top: 5px;
+  margin-top: 28px;
+
 }
 
 .about {
@@ -280,7 +281,7 @@
   align-items: flex-start;
   color: #000;
   gap: 30px;
-  padding: 100px 0 1px 25px;
+  padding: 102px 0 1px 25px;
 }
 
 .about_card_title {
